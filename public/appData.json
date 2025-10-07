@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "image": "https://img.icons8.com/color/96/slack-new.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "description": "Slack is a powerful messaging platform for teams to communicate, share files, and collaborate efficiently in real-time.",
+    "size": 120,
+    "reviews": 54000,
+    "ratingAvg": 4.7,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 12500 },
+      { "name": "5 star", "count": 34900 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://img.icons8.com/color/96/spotify--v1.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Listen to millions of songs, podcasts, and playlists on Spotify, the world’s leading audio streaming platform.",
+    "size": 85,
+    "reviews": 250000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 14000 },
+      { "name": "4 star", "count": 55000 },
+      { "name": "5 star", "count": 168000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://img.icons8.com/color/96/whatsapp--v1.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms Inc.",
+    "description": "Free messaging and calling app that lets you connect instantly with friends and family around the world.",
+    "size": 60,
+    "reviews": 400000,
+    "ratingAvg": 4.8,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 11000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 271000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://img.icons8.com/color/96/instagram-new--v1.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "description": "Share your photos, reels, and stories with the world using Instagram — the top social sharing platform.",
+    "size": 150,
+    "reviews": 380000,
+    "ratingAvg": 4.5,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 17000 },
+      { "name": "3 star", "count": 27000 },
+      { "name": "4 star", "count": 84000 },
+      { "name": "5 star", "count": 240000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://img.icons8.com/color/96/facebook-new.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "description": "Connect with friends, share updates, photos, and join communities worldwide using Facebook.",
+    "size": 180,
+    "reviews": 600000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 31000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 399000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://img.icons8.com/color/96/telegram-app--v1.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ LLC",
+    "description": "Fast, secure, and powerful messaging app focused on speed and privacy with cloud-based storage.",
+    "size": 45,
+    "reviews": 160000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 13000 },
+      { "name": "4 star", "count": 42000 },
+      { "name": "5 star", "count": 94000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://img.icons8.com/color/96/youtube-play.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "Watch, upload, and share videos globally with YouTube, the world’s largest video platform.",
+    "size": 140,
+    "reviews": 700000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 35000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 535000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://img.icons8.com/color/96/twitterx.png",
+    "title": "Twitter (X)",
+    "companyName": "X Corp.",
+    "description": "Join global conversations, share updates, and follow what’s trending on Twitter (X).",
+    "size": 90,
+    "reviews": 290000,
+    "ratingAvg": 4.3,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 18000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 68000 },
+      { "name": "5 star", "count": 149000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://img.icons8.com/color/96/chrome--v1.png",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "description": "Browse the web faster and safer with Google Chrome, the world’s most popular browser.",
+    "size": 210,
+    "reviews": 150000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 31000 },
+      { "name": "5 star", "count": 93000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://img.icons8.com/color/96/gmail--v1.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "description": "Send and receive emails securely with Gmail — the world’s most trusted email service.",
+    "size": 130,
+    "reviews": 210000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 44000 },
+      { "name": "5 star", "count": 134000 }
+    ]
+  }
+]
