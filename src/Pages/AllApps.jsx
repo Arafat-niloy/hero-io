@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import AppCard from "./AppCard";
 
 const AllApps = () => {
   const allApps = useLoaderData();
+    const [totalApps, setTotalApps] = useState(allApps);
+
 
   return (
     <div className="w-11/12 mx-auto">
@@ -14,7 +16,7 @@ const AllApps = () => {
         </p>
       </div>
       <div className="flex flex-col gap-3 justify-between md:flex-row">
-        <h3 className="text-2xl lg:text-4xl font-medium"> () Apps Found</h3>
+        <h3 className="text-2xl lg:text-4xl font-medium"> ({totalApps.length}) Apps Found</h3>
         <input
           type="text"
           placeholder="Search app..."
@@ -22,9 +24,9 @@ const AllApps = () => {
           
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-6 py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-6 py-10 ">
         {/* card map */}
-        {allApps.map((app) => (
+        {totalApps.map((app) => (
           <AppCard key={app.id} app={app} />
         ))}
       </div>

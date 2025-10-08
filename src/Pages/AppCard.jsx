@@ -6,7 +6,7 @@ const AppCard = ({ app }) => {
   return (
     <Link
       to={`/app/${id}`}
-      className="app_card shadow p-6 hover:shadow-2xl rounded"
+      className="app_card shadow p-6 hover:shadow-2xl rounded bg-white"
     >
       <div className="flex justify-center bg-blue-50 rounded">
         <img src={image} alt="" />
