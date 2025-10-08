@@ -5,7 +5,7 @@ const AppCard = ({ app }) => {
   const { id, title, image, downloads, ratingAvg } = app;
   return (
     <Link
-      to={`/app/${id}`}
+      to={`/apps/${id}`}
       className="app_card shadow p-6 hover:shadow-2xl rounded bg-white"
     >
       <div className="flex justify-center bg-blue-50 rounded">

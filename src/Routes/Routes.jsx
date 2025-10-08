@@ -30,9 +30,9 @@ export const router = createBrowserRouter([
         loader: () => fetch('/appData.json'),
       },
       {
-        path: '/app/:id',
+        path: '/apps/:id',
         element: <AppDetails />,
-        loader: ({ params }) => fetch('/appData.json'),
+        loader: () => fetch('/appData.json'),
       },
     ]
   },

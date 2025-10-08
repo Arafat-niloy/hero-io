@@ -6,7 +6,7 @@
     "companyName": "Slack Technologies",
     "description": "Slack is a powerful messaging platform for teams to communicate, share files, and collaborate efficiently in real-time.",
     "size": 120,
-    "reviews": 54000,
+    "reviews": 54,
     "ratingAvg": 4.7,
     "downloads": 50,
     "ratings": [
@@ -15,7 +15,8 @@
       { "name": "3 star", "count": 3400 },
       { "name": "4 star", "count": 12500 },
       { "name": "5 star", "count": 34900 }
-    ]
+    ],
+    "fullDescription": "Slack is designed to help teams communicate efficiently and stay organized. It offers channels for different projects, direct messaging, and seamless file sharing. Users can integrate multiple productivity tools, track workflows, and search messages quickly. Slack ensures smooth collaboration across departments, whether for quick updates or in-depth project discussions. With robust security and cross-platform accessibility, it keeps data safe and team members connected. Its user-friendly interface and custom notifications help teams prioritize important communications while reducing unnecessary distractions. Companies of all sizes rely on Slack to enhance teamwork, streamline communication, and improve overall productivity. Continuous updates and integration support make it adaptable to evolving work environments. Slack has become essential for remote teams, offering reliable communication, transparency, and efficiency across multiple devices."
   },
   {
     "id": 2,
@@ -24,7 +25,7 @@
     "companyName": "Spotify AB",
     "description": "Listen to millions of songs, podcasts, and playlists on Spotify, the world’s leading audio streaming platform.",
     "size": 85,
-    "reviews": 250000,
+    "reviews": 250,
     "ratingAvg": 4.6,
     "downloads": 100,
     "ratings": [
@@ -33,7 +34,8 @@
       { "name": "3 star", "count": 14000 },
       { "name": "4 star", "count": 55000 },
       { "name": "5 star", "count": 168000 }
-    ]
+    ],
+    "fullDescription": "Spotify is a premier music and audio streaming platform offering access to millions of songs, albums, and podcasts. It allows users to create personalized playlists, discover new artists, and listen to curated recommendations. The platform provides seamless cross-device syncing, offline downloads, and high-quality audio streaming for both free and premium users. Spotify’s algorithmic recommendations help users explore music based on listening habits, ensuring a unique and enjoyable experience. Podcasts and exclusive content enhance engagement, catering to diverse interests. Spotify’s social features enable users to share playlists and follow friends or favorite artists, creating a connected listening community. Businesses and artists use Spotify to distribute music globally and track engagement analytics. The app’s intuitive interface ensures that users of all ages can navigate easily, making it a dominant platform in the digital music space. Continuous updates and innovative features maintain Spotify’s position as a leader in music streaming worldwide."
   },
   {
     "id": 3,
@@ -42,7 +44,7 @@
     "companyName": "Meta Platforms Inc.",
     "description": "Free messaging and calling app that lets you connect instantly with friends and family around the world.",
     "size": 60,
-    "reviews": 400000,
+    "reviews": 400,
     "ratingAvg": 4.8,
     "downloads": 500,
     "ratings": [
@@ -51,7 +53,8 @@
       { "name": "3 star", "count": 20000 },
       { "name": "4 star", "count": 90000 },
       { "name": "5 star", "count": 271000 }
-    ]
+    ],
+    "fullDescription": "WhatsApp is a globally popular messaging app providing fast, secure, and reliable communication. Users can send texts, voice messages, photos, videos, and documents instantly. WhatsApp supports voice and video calls, group chats, and status updates, making it versatile for personal and professional use. End-to-end encryption ensures complete privacy, and its lightweight design allows smooth operation even on low-end devices. WhatsApp Web and desktop apps provide cross-device accessibility, enabling users to stay connected anywhere. Businesses leverage WhatsApp Business to interact with customers, manage support queries, and promote products. Its simplicity, combined with robust security, has made it essential for daily communication. Continuous feature updates, such as media sharing limits, payment integration, and community management, keep WhatsApp at the forefront of messaging apps. Overall, WhatsApp offers a reliable and efficient platform for communication, connecting people around the world seamlessly and securely."
   },
   {
     "id": 4,
@@ -60,7 +63,7 @@
     "companyName": "Meta Platforms Inc.",
     "description": "Share your photos, reels, and stories with the world using Instagram — the top social sharing platform.",
     "size": 150,
-    "reviews": 380000,
+    "reviews": 380,
     "ratingAvg": 4.5,
     "downloads": 300,
     "ratings": [
@@ -69,7 +72,8 @@
       { "name": "3 star", "count": 27000 },
       { "name": "4 star", "count": 84000 },
       { "name": "5 star", "count": 240000 }
-    ]
+    ],
+    "fullDescription": "Instagram is a visual social media platform designed for sharing photos, videos, and short-form content. Users can create posts, stories, and reels to showcase their creativity and experiences. Its interface offers tools for editing and enhancing media content, making it easy to share polished visuals. Instagram allows social interaction through comments, likes, and direct messages, connecting users globally. Businesses and creators use Instagram to promote products, engage with audiences, and run marketing campaigns. The Explore feature helps users discover new content tailored to their interests. Instagram’s algorithm ensures relevant content appears in feeds, while its advertising platform supports targeted campaigns. Continuous updates, including shopping, reels, and interactive stickers, enhance user engagement. Overall, Instagram provides a dynamic, creative, and interactive environment for individuals and brands to connect visually and socially."
   },
   {
     "id": 5,
@@ -78,7 +82,7 @@
     "companyName": "Meta Platforms Inc.",
     "description": "Connect with friends, share updates, photos, and join communities worldwide using Facebook.",
     "size": 180,
-    "reviews": 600000,
+    "reviews": 600,
     "ratingAvg": 4.4,
     "downloads": 500,
     "ratings": [
@@ -87,7 +91,8 @@
       { "name": "3 star", "count": 45000 },
       { "name": "4 star", "count": 100000 },
       { "name": "5 star", "count": 399000 }
-    ]
+    ],
+    "fullDescription": "Facebook is a widely used social networking platform that allows users to connect with friends, family, and communities. Users can share updates, photos, videos, and participate in group discussions. Facebook provides a platform for businesses to promote their products and services, run ads, and engage with customers. Features like Pages, Marketplace, and Events enable diverse social and commercial interactions. Facebook’s algorithms curate content relevant to user interests, and messaging tools facilitate real-time communication. The platform also supports live streaming and content discovery through trending topics. Privacy settings and security features allow users to control their experience. Continuous updates and feature expansions ensure Facebook remains relevant and versatile for social connection, information sharing, and digital engagement worldwide."
   },
   {
     "id": 6,
@@ -96,7 +101,7 @@
     "companyName": "Telegram FZ LLC",
     "description": "Fast, secure, and powerful messaging app focused on speed and privacy with cloud-based storage.",
     "size": 45,
-    "reviews": 160000,
+    "reviews": 160,
     "ratingAvg": 4.7,
     "downloads": 300,
     "ratings": [
@@ -105,7 +110,8 @@
       { "name": "3 star", "count": 13000 },
       { "name": "4 star", "count": 42000 },
       { "name": "5 star", "count": 94000 }
-    ]
+    ],
+    "fullDescription": "Telegram is a secure and fast messaging platform offering cloud-based messaging, media sharing, and group communication. Users can send text, voice, and video messages, as well as share files of large size instantly. Telegram supports channels and supergroups for broadcasting messages to large audiences. End-to-end encryption and secret chats provide privacy and security. Its cloud architecture ensures seamless synchronization across devices and access to message history anytime. Telegram’s bots, stickers, and automation features enhance user interaction. The platform is ideal for both personal and professional communication, with flexible tools for community building and collaboration. Continuous updates introduce new features, improving performance and expanding capabilities. Telegram stands out for speed, reliability, and user privacy, offering a versatile messaging solution for global users seeking secure and efficient communication."
   },
   {
     "id": 7,
@@ -114,7 +120,7 @@
     "companyName": "Google LLC",
     "description": "Watch, upload, and share videos globally with YouTube, the world’s largest video platform.",
     "size": 140,
-    "reviews": 700000,
+    "reviews": 700,
     "ratingAvg": 4.6,
     "downloads": 800,
     "ratings": [
@@ -123,7 +129,8 @@
       { "name": "3 star", "count": 35000 },
       { "name": "4 star", "count": 90000 },
       { "name": "5 star", "count": 535000 }
-    ]
+    ],
+    "fullDescription": "YouTube is the leading global video-sharing platform that allows users to watch, upload, and share videos across all genres. It offers a diverse range of content including entertainment, education, music, news, and tutorials, enabling users to discover new ideas and expand knowledge. Content creators can monetize their channels, engage with their audience through comments and live streaming, and analyze performance through advanced analytics. YouTube provides personalized recommendations based on user preferences and viewing history, enhancing the overall experience. It supports high-definition video playback, subtitles, and multi-device accessibility, ensuring that content can be enjoyed anytime and anywhere. The platform is continually updated with new features such as shorts, community posts, and live events to keep the experience engaging. With a strong focus on user engagement, discovery, and creativity, YouTube remains an essential platform for both content consumers and creators worldwide."
   },
   {
     "id": 8,
@@ -132,7 +139,7 @@
     "companyName": "X Corp.",
     "description": "Join global conversations, share updates, and follow what’s trending on Twitter (X).",
     "size": 90,
-    "reviews": 290000,
+    "reviews": 290,
     "ratingAvg": 4.3,
     "downloads": 200,
     "ratings": [
@@ -141,7 +148,8 @@
       { "name": "3 star", "count": 30000 },
       { "name": "4 star", "count": 68000 },
       { "name": "5 star", "count": 149000 }
-    ]
+    ],
+    "fullDescription": "Twitter, now known as X, is a social media platform that allows users to post and interact with short messages called tweets. Users can follow individuals, brands, or topics to stay informed and participate in real-time discussions. The platform is widely used for news updates, trends, political discourse, and social interaction, offering hashtags, retweets, and replies to amplify engagement. Twitter supports multimedia content including images, videos, and polls, making communication versatile and interactive. Businesses, journalists, and influencers use Twitter to reach audiences, share updates, and manage public relations. The platform’s algorithm highlights trending topics and tailored content, keeping users engaged. Twitter is accessible across web and mobile devices and prioritizes user safety with content moderation and privacy settings. Continuous updates to features such as Spaces, monetization options, and analytics tools ensure that both casual users and professionals can maximize their experience on the platform."
   },
   {
     "id": 9,
@@ -150,7 +158,7 @@
     "companyName": "Google LLC",
     "description": "Browse the web faster and safer with Google Chrome, the world’s most popular browser.",
     "size": 210,
-    "reviews": 150000,
+    "reviews": 150,
     "ratingAvg": 4.8,
     "downloads": 1000,
     "ratings": [
@@ -159,7 +167,8 @@
       { "name": "3 star", "count": 12000 },
       { "name": "4 star", "count": 31000 },
       { "name": "5 star", "count": 93000 }
-    ]
+    ],
+    "fullDescription": "Google Chrome is a fast, secure, and widely used web browser designed for efficiency and seamless browsing. It offers a simple interface, fast page loading, and strong security features to protect users from malware and phishing attacks. Chrome supports extensive extensions and add-ons, allowing users to customize their browsing experience for productivity, security, or entertainment. Its synchronization feature ensures that bookmarks, passwords, and settings are accessible across multiple devices, providing a consistent experience. Chrome regularly updates to introduce new features, improve speed, and maintain compatibility with the latest web technologies. Developers benefit from Chrome’s robust developer tools for debugging, performance monitoring, and testing websites. With a focus on performance, security, and versatility, Google Chrome remains a leading choice for web browsing globally, catering to both personal and professional users."
   },
   {
     "id": 10,
@@ -168,7 +177,7 @@
     "companyName": "Google LLC",
     "description": "Send and receive emails securely with Gmail — the world’s most trusted email service.",
     "size": 130,
-    "reviews": 210000,
+    "reviews": 210,
     "ratingAvg": 4.7,
     "downloads": 400,
     "ratings": [
@@ -177,7 +186,8 @@
       { "name": "3 star", "count": 15000 },
       { "name": "4 star", "count": 44000 },
       { "name": "5 star", "count": 134000 }
-    ]
+    ],
+    "fullDescription": "Gmail is Google’s secure and reliable email service providing users with fast, organized, and accessible communication. Users can send and receive emails, attach files, manage multiple accounts, and access messages across devices. Gmail’s smart features, such as automatic categorization, spam detection, and search functionality, improve productivity and organization. Integration with Google Workspace allows seamless access to tools like Drive, Calendar, and Meet for collaboration. Users benefit from robust security features, including two-factor authentication and encryption, keeping data protected. Gmail supports offline access, scheduling, and personalized notifications to ensure timely responses. Businesses and individuals alike use Gmail for communication, project management, and client interaction. Continuous updates introduce new tools, user experience improvements, and AI-powered suggestions. Gmail remains a trusted platform for secure, efficient, and professional email communication globally."
   },
   {
     "id": 11,
@@ -186,7 +196,7 @@
     "companyName": "Google LLC",
     "description": "Navigate the world with Google Maps — get real-time GPS navigation, traffic, and local business information.",
     "size": 160,
-    "reviews": 320000,
+    "reviews": 320,
     "ratingAvg": 4.7,
     "downloads": 600,
     "ratings": [
@@ -195,7 +205,8 @@
       { "name": "3 star", "count": 20000 },
       { "name": "4 star", "count": 50000 },
       { "name": "5 star", "count": 230000 }
-    ]
+    ],
+    "fullDescription": "Google Maps is an advanced mapping and navigation service that provides accurate directions, traffic updates, and local business information. Users can find routes for driving, walking, biking, and public transportation. Google Maps includes satellite imagery, street views, and detailed maps for comprehensive navigation. Features such as real-time traffic, estimated arrival times, and route alternatives improve travel efficiency. Businesses and locations can list their information, opening hours, and reviews, helping users make informed decisions. Offline maps allow access in areas with limited connectivity, and integration with other Google services enhances usability. Google Maps continuously updates map data, ensures accuracy, and introduces new tools for navigation, exploration, and travel planning. It serves as a vital resource for daily commuting, tourism, logistics, and local discovery worldwide."
   },
   {
     "id": 12,
@@ -204,7 +215,7 @@
     "companyName": "Zoom Video Communications",
     "description": "Join meetings and webinars easily with Zoom — the leading video conferencing platform.",
     "size": 95,
-    "reviews": 180000,
+    "reviews": 180,
     "ratingAvg": 4.6,
     "downloads": 400,
     "ratings": [
@@ -213,7 +224,8 @@
       { "name": "3 star", "count": 12000 },
       { "name": "4 star", "count": 35000 },
       { "name": "5 star", "count": 118000 }
-    ]
+    ],
+    "fullDescription": "Zoom is a comprehensive video conferencing platform that enables online meetings, webinars, and collaborative communication. It supports high-definition video, audio, and screen sharing, making it suitable for professional and educational purposes. Users can schedule meetings, host large webinars, and engage with participants using interactive tools like chat, polls, and breakout rooms. Zoom provides secure communication with end-to-end encryption and robust access controls. Cross-platform support allows users to join meetings from desktops, mobile devices, or web browsers. Integration with calendars, productivity tools, and collaboration apps enhances workflow efficiency. Continuous updates introduce features such as virtual backgrounds, transcription, and meeting analytics. Zoom has become essential for remote work, distance learning, and global communication, providing a reliable, user-friendly, and scalable solution for connecting people anywhere in the world."
   },
   {
     "id": 13,
@@ -222,7 +234,7 @@
     "companyName": "LinkedIn Corporation",
     "description": "Grow your professional network and explore career opportunities with LinkedIn.",
     "size": 110,
-    "reviews": 250000,
+    "reviews": 250,
     "ratingAvg": 4.5,
     "downloads": 100,
     "ratings": [
@@ -231,7 +243,8 @@
       { "name": "3 star", "count": 18000 },
       { "name": "4 star", "count": 47000 },
       { "name": "5 star", "count": 162000 }
-    ]
+    ],
+    "fullDescription": "LinkedIn is the premier professional networking platform that enables users to connect with colleagues, industry experts, and potential employers. Users can build a professional profile, showcase skills, and highlight work experience. LinkedIn supports content sharing, publishing articles, and participating in discussions to establish thought leadership. Companies use LinkedIn to post job openings, recruit talent, and engage with professionals through company pages. The platform provides learning resources, online courses, and career development tools to enhance skills. LinkedIn’s networking capabilities, endorsements, and recommendations help build credibility and opportunities. Analytics and insights allow professionals to track engagement and growth effectively. Continuous updates, premium services, and AI-driven suggestions enhance the overall experience. LinkedIn is essential for professional development, networking, and career growth, connecting individuals and organizations globally in a secure and efficient environment."
   },
   {
     "id": 14,
@@ -240,7 +253,7 @@
     "companyName": "ByteDance Ltd.",
     "description": "Create, share, and enjoy short videos with TikTok — the most popular short-form video platform.",
     "size": 200,
-    "reviews": 500000,
+    "reviews": 500,
     "ratingAvg": 4.4,
     "downloads": 300,
     "ratings": [
@@ -249,6 +262,9 @@
       { "name": "3 star", "count": 33000 },
       { "name": "4 star", "count": 86000 },
       { "name": "5 star", "count": 334000 }
-    ]
+    ],
+    "fullDescription": "TikTok is a leading short-form video platform that allows users to create, share, and view engaging content across diverse categories. Its intuitive interface enables users to record videos, add music, effects, and filters, and reach a global audience. TikTok’s algorithm curates personalized content based on viewing habits, ensuring an engaging experience for every user. The platform fosters creativity, entertainment, and social interaction through trends, challenges, and collaborations. Content creators can monetize their videos through the Creator Fund, brand partnerships, and in-app gifts. TikTok supports community guidelines and safety features to maintain a positive user environment. Educational, informative, and entertainment content coexist, providing value and engagement for a wide demographic. With regular updates introducing new features, editing tools, and analytics, TikTok continues to be a dominant platform for creative expression, digital influence, and social connection worldwide."
   }
+
+
 ]

@@ -4,8 +4,13 @@ import AppCard from "./AppCard";
 
 const AllApps = () => {
   const allApps = useLoaderData();
-    const [totalApps, setTotalApps] = useState(allApps);
-
+  const [totalApps, setTotalApps] = useState(allApps);
+  const [search, setSearch] = useState("");
+  const term = search.trim().toLocaleLowerCase();
+  const searchedApp = term
+    ? totalApps.filter((appS) => appS.title.toLocaleLowerCase().includes(term))
+    : totalApps;
+  console.log(searchedApp);
 
   return (
     <div className="w-11/12 mx-auto">
@@ -16,20 +21,28 @@ const AllApps = () => {
         </p>
       </div>
       <div className="flex flex-col gap-3 justify-between md:flex-row">
-        <h3 className="text-2xl lg:text-4xl font-medium"> ({totalApps.length}) Apps Found</h3>
+        <h3 className="text-2xl lg:text-4xl font-medium">
+          {" "}
+          ({searchedApp.length}) Apps Found
+        </h3>
         <input
-          type="text"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          type="search"
           placeholder="Search app..."
           className="input input-bordered w-full max-w-xs text-2xl"
-          
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-6 py-10 ">
-        {/* card map */}
-        {totalApps.map((app) => (
-          <AppCard key={app.id} app={app} />
-        ))}
-      </div>
+      {searchedApp.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-6 py-10 ">
+          {/* card map */}
+          {searchedApp.map((app) => (
+            <AppCard key={app.id} app={app} />
+          ))}
+        </div>
+      ) : (
+        <p className="text-center text-6xl p-30"> No App Found</p>
+      )}
     </div>
   );
 };
