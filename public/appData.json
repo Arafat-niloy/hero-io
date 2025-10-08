@@ -8,7 +8,7 @@
     "size": 120,
     "reviews": 54000,
     "ratingAvg": 4.7,
-    "downloads": 50000000,
+    "downloads": 50,
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 2000 },
@@ -26,7 +26,7 @@
     "size": 85,
     "reviews": 250000,
     "ratingAvg": 4.6,
-    "downloads": 1000000000,
+    "downloads": 100,
     "ratings": [
       { "name": "1 star", "count": 5000 },
       { "name": "2 star", "count": 8000 },
@@ -44,7 +44,7 @@
     "size": 60,
     "reviews": 400000,
     "ratingAvg": 4.8,
-    "downloads": 5000000000,
+    "downloads": 500,
     "ratings": [
       { "name": "1 star", "count": 8000 },
       { "name": "2 star", "count": 11000 },
@@ -62,7 +62,7 @@
     "size": 150,
     "reviews": 380000,
     "ratingAvg": 4.5,
-    "downloads": 3000000000,
+    "downloads": 300,
     "ratings": [
       { "name": "1 star", "count": 12000 },
       { "name": "2 star", "count": 17000 },
@@ -80,7 +80,7 @@
     "size": 180,
     "reviews": 600000,
     "ratingAvg": 4.4,
-    "downloads": 5000000000,
+    "downloads": 500,
     "ratings": [
       { "name": "1 star", "count": 25000 },
       { "name": "2 star", "count": 31000 },
@@ -98,7 +98,7 @@
     "size": 45,
     "reviews": 160000,
     "ratingAvg": 4.7,
-    "downloads": 1000000000,
+    "downloads": 300,
     "ratings": [
       { "name": "1 star", "count": 4000 },
       { "name": "2 star", "count": 7000 },
@@ -116,7 +116,7 @@
     "size": 140,
     "reviews": 700000,
     "ratingAvg": 4.6,
-    "downloads": 10000000000,
+    "downloads": 800,
     "ratings": [
       { "name": "1 star", "count": 15000 },
       { "name": "2 star", "count": 25000 },
@@ -134,7 +134,7 @@
     "size": 90,
     "reviews": 290000,
     "ratingAvg": 4.3,
-    "downloads": 2000000000,
+    "downloads": 200,
     "ratings": [
       { "name": "1 star", "count": 18000 },
       { "name": "2 star", "count": 25000 },
@@ -152,7 +152,7 @@
     "size": 210,
     "reviews": 150000,
     "ratingAvg": 4.8,
-    "downloads": 10000000000,
+    "downloads": 1000,
     "ratings": [
       { "name": "1 star", "count": 5000 },
       { "name": "2 star", "count": 9000 },
@@ -170,13 +170,85 @@
     "size": 130,
     "reviews": 210000,
     "ratingAvg": 4.7,
-    "downloads": 10000000000,
+    "downloads": 400,
     "ratings": [
       { "name": "1 star", "count": 7000 },
       { "name": "2 star", "count": 10000 },
       { "name": "3 star", "count": 15000 },
       { "name": "4 star", "count": 44000 },
       { "name": "5 star", "count": 134000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://img.icons8.com/color/96/google-maps-new.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Navigate the world with Google Maps — get real-time GPS navigation, traffic, and local business information.",
+    "size": 160,
+    "reviews": 320000,
+    "ratingAvg": 4.7,
+    "downloads": 600,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 230000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://img.icons8.com/color/96/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "description": "Join meetings and webinars easily with Zoom — the leading video conferencing platform.",
+    "size": 95,
+    "reviews": 180000,
+    "ratingAvg": 4.6,
+    "downloads": 400,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 118000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://img.icons8.com/color/96/linkedin.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "description": "Grow your professional network and explore career opportunities with LinkedIn.",
+    "size": 110,
+    "reviews": 250000,
+    "ratingAvg": 4.5,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 14000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 47000 },
+      { "name": "5 star", "count": 162000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://img.icons8.com/color/96/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "description": "Create, share, and enjoy short videos with TikTok — the most popular short-form video platform.",
+    "size": 200,
+    "reviews": 500000,
+    "ratingAvg": 4.4,
+    "downloads": 300,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 27000 },
+      { "name": "3 star", "count": 33000 },
+      { "name": "4 star", "count": 86000 },
+      { "name": "5 star", "count": 334000 }
     ]
   }
 ]
