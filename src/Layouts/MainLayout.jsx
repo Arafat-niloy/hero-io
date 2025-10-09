@@ -1,20 +1,22 @@
-import React from 'react';
+import React from "react";
 
-import Footer from '../Components/Footer';
-import { Outlet } from 'react-router';
-import Navbar from '../Components/Navbar';
+import Footer from "../Components/Footer";
+import { Outlet, useLoaderData, useNavigation } from "react-router";
+import Navbar from "../Components/Navbar";
+import Loader from "../Components/Loader";
 
 const MainLayout = () => {
-    return (
-        <div className='min-h-screen flex flex-col'>
-            <Navbar/>
-            <div className='flex-1 bg-gray-50'>
+  const navigation = useNavigation();
 
-            <Outlet/>
-            </div>
-            <Footer/>
-        </div>
-    );
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <div className="flex-1 bg-gray-50">
+        {navigation.state === "loading" ? <Loader /> : <Outlet />}
+      </div>
+      <Footer />
+    </div>
+  );
 };
 
 export default MainLayout;
