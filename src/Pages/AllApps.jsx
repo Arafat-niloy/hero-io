@@ -1,19 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData } from "react-router";
+// import { Link, useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router-dom";
 import AppCard from "./AppCard";
-import Loader from "../Components/Loader"; 
+import Loader from "../Components/Loader";
+import notFoundImg from "../assets/App-Error.png";
 
 const AllApps = () => {
   const allApps = useLoaderData();
   const [search, setSearch] = useState("");
-  
- 
-  const [isSearching, setIsSearching] = useState(false);
-  
-  
-  const [filteredApps, setFilteredApps] = useState(allApps);
 
-  
+  const [isSearching, setIsSearching] = useState(false);
+
+  const [filteredApps, setFilteredApps] = useState(allApps || []);
+
   useEffect(() => {
     setIsSearching(true); // সার্চ শুরু হলে লোডার চালু
     const term = search.trim().toLowerCase();
@@ -33,9 +32,7 @@ const AllApps = () => {
 
     // ক্লিন-আপ ফাংশন
     return () => clearTimeout(searchTimeout);
-
   }, [search, allApps]);
-
 
   return (
     <div className="w-11/12 mx-auto">
@@ -58,7 +55,6 @@ const AllApps = () => {
         />
       </div>
 
-      
       {isSearching ? (
         <Loader />
       ) : filteredApps.length > 0 ? (
@@ -68,7 +64,25 @@ const AllApps = () => {
           ))}
         </div>
       ) : (
-        <p className="text-center text-6xl p-30"> No App Found</p>
+        <div className="text-center mt-36">
+          <div>
+            <img src={notFoundImg} alt="" className="mx-auto" />
+          </div>
+          <div className="my-6">
+            <h3 className="text-4xl">OPPS!! APP NOT FOUND</h3>
+            <p className="text-xl text-gray-500">
+              The App you are requesting is not found on our system.  please try another apps.
+            </p>
+          </div>
+          <div>
+            <Link
+              to="/apps"
+              className="btn btn-primary mb-30 px-6 bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+            >
+              Go Back!
+            </Link>
+          </div>
+        </div>
       )}
     </div>
   );
