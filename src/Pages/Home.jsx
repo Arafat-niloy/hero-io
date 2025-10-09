@@ -1,7 +1,11 @@
 import React from "react";
 import heroImg from "../assets/hero.png";
+import appStoreImg from "../assets/fi_5977575.png";
+import playStoreImg from "../assets/fi_16076057.png";
 import AppCard from "./AppCard";
 import { Link, useLoaderData } from "react-router";
+import { FaGooglePlay } from "react-icons/fa";
+
 const Home = () => {
   const allApps = useLoaderData();
   console.log(allApps);
@@ -20,16 +24,22 @@ const Home = () => {
           simpler, smarter, and more exciting. Our goal is to turn your ideas
           into digital experiences that truly make an impact.
         </p>
-        <div className="space-x-3">
-          <a href="/" className="border border-gray-400 p-1 rounded ">
-            Google Play
-          </a>
-          <a href="/" className="border border-gray-400 p-1 rounded ">
-            App Store
-          </a>
+        <div className="space-x-3 flex justify-center">
+          <Link
+            to="https://play.google.com/store/apps/"
+            className="border border-gray-300 p-1 rounded flex items-center gap-2 font-semibold  "
+          >
+            <img src={playStoreImg} alt="" className="w-7 h-7" /> Google Play
+          </Link>
+          <Link
+            to="https://www.apple.com/app-store/"
+            className="border border-gray-300 p-1 rounded flex items-center gap-2  font-semibold"
+          >
+            <img src={appStoreImg} alt="" className="w-7 h-7" /> App Store
+          </Link>
         </div>
         <div className="text-center flex justify-center">
-          <img src={heroImg} alt="" className="" />
+          <img src={heroImg} alt="" />
         </div>
       </div>
 
@@ -72,7 +82,9 @@ const Home = () => {
           ))}
         </div>
         <div className="text-center mt-8">
-          <Link to="/apps" className="btn btn-outline btn-primary mb-8">Show All</Link>
+          <Link to="/apps" className="btn btn-outline btn-primary mb-8">
+            Show All
+          </Link>
         </div>
       </div>
     </div>

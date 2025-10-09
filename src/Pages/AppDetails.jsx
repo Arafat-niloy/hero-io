@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
+import ratingImg from "../assets/icon-ratings.png"
+import dwnldImg from "../assets/icon-downloads.png"
+import reviewImg from "../assets/icon-review.png"
 
 import { toast } from "react-toastify";
 import {
@@ -70,9 +73,9 @@ const AppDetails = () => {
     }
     return (
         <div className="w-11/12 mx-auto mt-20">
-            <div className="lg:flex gap-8">
+            <div className="lg:flex gap-8 ">
                 <div className="w-1/2 lg:w-auto mx-auto lg:mx-0 ">
-                    <img src={image} alt={title} className="object-cover w-[350px]" />
+                    <img src={image} alt={title} className="object-cover w-full bg-white h-105" />
                 </div>
                 <div className=" flex flex-col justify-between">
                     <div>
@@ -83,22 +86,25 @@ const AppDetails = () => {
                         </p>
                     </div>
                     <hr className="my-6 lg:mt-8 text-gray-300" />
-                    <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12 text-center">
+                    <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-18 md:gap-22 text-center md:text-start">
                         <div className="">
+                          <img src={dwnldImg} alt="" className="mx-auto md:mx-0" />
                             <p className="text-3xl">Downloads</p>
                             <h3 className="text-8xl font-bold">{downloads}M</h3>
                         </div>
                         <div>
+                          <img src={ratingImg} alt="" className="mx-auto md:mx-0" />
                             <p className="text-3xl">Average Ratings</p>
                             <h3 className="text-8xl font-bold">{ratingAvg}</h3>
                         </div>
                         <div>
+                          <img src={reviewImg} alt="" className="mx-auto md:mx-0" />
                             <p className="text-3xl">Total Reviews</p>
                             <h3 className="text-8xl font-bold">{reviews}K</h3>
                         </div>
                     </div>
                     <button  // Link এর পরিবর্তে button ব্যবহার করা ভালো কারণ এটি কোনো পেজে নেভিগেট করছে না
-                        className="bg-green-500 my-8 py-2 rounded text-lg w-1/2 mx-auto lg:w-1/2 text-center lg:mx-0 md:px-4 text-white hover:bg-green-600 disabled:bg-gray-400"
+                        className="bg-green-500 mt-6 py-2 rounded text-lg w-1/2 mx-auto lg:w-1/2 text-center lg:mx-0 md:px-4 text-white hover:bg-green-600 disabled:bg-gray-400 cursor-pointer"
                         onClick={handleInstall}
                         disabled={isInstalled}
                     >

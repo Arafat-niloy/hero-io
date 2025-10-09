@@ -62,7 +62,7 @@ const AllApps = () => {
       {isSearching ? (
         <Loader />
       ) : filteredApps.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-6 py-10 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-6 pb-10 ">
           {filteredApps.map((app) => (
             <AppCard key={app.id} app={app} />
           ))}

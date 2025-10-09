@@ -1,5 +1,7 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
+import appLogo from "../assets/logo.png";
+import { FaGithub } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -40,18 +42,23 @@ const Navbar = () => {
         </div>
         <NavLink
           to="/"
-          className="text-2xl font-bold text-primary tracking-wide hover:text-secondary transition-colors"
+          className="text-2xl font-bold  tracking-wide  flex items-center space-x-2 "
         >
-          HERO.IO
+          <img src={appLogo} alt="appLogo" className="w-10 h-10" />{" "}
+          <span className="hover:text-secondary transition-colors bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+            HERO.IO
+          </span>
         </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 text-lg font-medium">
           <li>
             <NavLink
               to="/home"
               className={({ isActive }) =>
-                isActive ? "text-primary font-semibold" : "hover:text-primary"
+                isActive
+                  ? "text-primary font-semibold border-b-2 shadow"
+                  : "hover:text-primary"
               }
             >
               Home
@@ -61,7 +68,9 @@ const Navbar = () => {
             <NavLink
               to="/apps"
               className={({ isActive }) =>
-                isActive ? "text-primary font-semibold" : "hover:text-primary"
+                isActive
+                  ? "text-primary font-semibold border-b-2 shadow"
+                  : "hover:text-primary"
               }
             >
               Apps
@@ -71,7 +80,9 @@ const Navbar = () => {
             <NavLink
               to="/installation"
               className={({ isActive }) =>
-                isActive ? "text-primary font-semibold" : "hover:text-primary"
+                isActive
+                  ? "text-primary font-semibold border-b-2 shadow"
+                  : "hover:text-primary"
               }
             >
               Installation
@@ -80,7 +91,13 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary px-6">GO to REPO</a>
+        <a
+          href="https://github.com/Arafat-niloy"
+          target="_blank"
+          className="btn btn-primary px-6 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] "
+        >
+          <FaGithub size={20} /> Contribute
+        </a>
       </div>
     </div>
   );
