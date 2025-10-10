@@ -5,7 +5,6 @@ import playStoreImg from "../assets/fi_16076057.png";
 import AppCard from "./AppCard";
 import { Link, useLoaderData } from "react-router";
 
-
 const Home = () => {
   const allApps = useLoaderData();
   console.log(allApps);
@@ -44,7 +43,7 @@ const Home = () => {
       </div>
 
       {/* trusted section */}
-      <div className="bg-violet-600 text-white space-y-14 py-16 text-center">
+      <div className="bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white space-y-14 py-16 text-center">
         <h3 className="text-2xl md:text-4xl font-bold">
           Trusted by Millions, Built for You
         </h3>

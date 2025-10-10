@@ -100,7 +100,7 @@ const AppDetails = () => {
           <img
             src={image}
             alt={title}
-            className="object-cover w-full bg-white h-105"
+            className="object-cover w-full bg-white md:h-105"
           />
         </div>
         <div className=" flex flex-col justify-between">
@@ -108,7 +108,7 @@ const AppDetails = () => {
             <h3 className="font-bold text-5xl">{title}</h3>
             <p className="text-2xl mt-3">
               Developed by
-              <span className="text-violet-500">{companyName}</span>
+              <span className="text-violet-500"> {companyName}</span>
             </p>
           </div>
           <hr className="my-6 lg:mt-8 text-gray-300" />
