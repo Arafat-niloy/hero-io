@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { Link, useLoaderData } from "react-router";
+
 import { Link, useLoaderData } from "react-router-dom";
 import AppCard from "./AppCard";
 import Loader from "../Components/Loader";
@@ -14,10 +14,9 @@ const AllApps = () => {
   const [filteredApps, setFilteredApps] = useState(allApps || []);
 
   useEffect(() => {
-    setIsSearching(true); // সার্চ শুরু হলে লোডার চালু
+    setIsSearching(true);
     const term = search.trim().toLowerCase();
 
-    // একটি ছোট্ট ডিলে দেওয়া হয়েছে যাতে লোডারটি দৃশ্যমান হয়
     const searchTimeout = setTimeout(() => {
       if (term) {
         const searched = allApps.filter((app) =>
@@ -27,10 +26,9 @@ const AllApps = () => {
       } else {
         setFilteredApps(allApps);
       }
-      setIsSearching(false); // সার্চ শেষ হলে লোডার বন্ধ
-    }, 300); // 300ms ডিলে
+      setIsSearching(false);
+    }, 300);
 
-    // ক্লিন-আপ ফাংশন
     return () => clearTimeout(searchTimeout);
   }, [search, allApps]);
 
@@ -71,7 +69,8 @@ const AllApps = () => {
           <div className="my-6">
             <h3 className="text-4xl">OPPS!! APP NOT FOUND</h3>
             <p className="text-xl text-gray-500">
-              The App you are requesting is not found on our system.  please try another apps.
+              The App you are requesting is not found on our system. please try
+              another apps.
             </p>
           </div>
           <div>

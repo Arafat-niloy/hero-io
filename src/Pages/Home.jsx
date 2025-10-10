@@ -4,7 +4,7 @@ import appStoreImg from "../assets/fi_5977575.png";
 import playStoreImg from "../assets/fi_16076057.png";
 import AppCard from "./AppCard";
 import { Link, useLoaderData } from "react-router";
-import { FaGooglePlay } from "react-icons/fa";
+
 
 const Home = () => {
   const allApps = useLoaderData();

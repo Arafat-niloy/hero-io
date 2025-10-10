@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { useLoaderData, useParams } from "react-router";
+
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import ratingImg from "../assets/icon-ratings.png";
 import dwnldImg from "../assets/icon-downloads.png";
@@ -30,7 +30,7 @@ const AppDetails = () => {
     return stored ? JSON.parse(stored) : [];
   };
 
-  // App save in local storage
+  // App data local storage e save korlam
   const saveApp = (app) => {
     const existingList = getStoredApps();
     const isDuplicate = existingList.some((a) => a.id === app.id);
@@ -107,7 +107,7 @@ const AppDetails = () => {
           <div>
             <h3 className="font-bold text-5xl">{title}</h3>
             <p className="text-2xl mt-3">
-              Developed by{" "}
+              Developed by
               <span className="text-violet-500">{companyName}</span>
             </p>
           </div>
@@ -129,7 +129,7 @@ const AppDetails = () => {
               <h3 className="text-8xl font-bold">{reviews}K</h3>
             </div>
           </div>
-          <button // Link এর পরিবর্তে button ব্যবহার করা ভালো কারণ এটি কোনো পেজে নেভিগেট করছে না
+          <button
             className="bg-green-500 mt-6 py-2 rounded text-lg w-1/2 mx-auto lg:w-1/2 text-center lg:mx-0 md:px-4 text-white hover:bg-green-600 disabled:bg-gray-400 cursor-pointer"
             onClick={handleInstall}
             disabled={isInstalled}
@@ -140,13 +140,13 @@ const AppDetails = () => {
       </div>
       <hr className="my-12 text-gray-300" />
 
-      {/* ratings recharts - এই অংশটি পরিবর্তন করা হয়েছে */}
+      {/* ratings recharts part */}
       <div className="mt-12">
         <h3 className="text-2xl font-bold mb-4">Review Ratings</h3>
         <div style={{ width: "100%", height: 300 }}>
           <ResponsiveContainer>
             <BarChart
-              layout="vertical" // চার্টটিকে হরাইজন্টাল করা হয়েছে
+              layout="vertical"
               data={ratings ? [...ratings].reverse() : []}
               margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
             >
@@ -162,6 +162,7 @@ const AppDetails = () => {
       </div>
 
       <hr className="my-12 text-gray-300" />
+      {/* description part */}
       <div>
         <h3 className="text-4xl font-bold">Description</h3>
         <p className="text-gray-400 text-lg mb-8">{fullDescription}</p>

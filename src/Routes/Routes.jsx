@@ -1,5 +1,4 @@
-// Routes.jsx
-import { createBrowserRouter } from "react-router-dom"; // react-router-dom থেকে import
+import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Layouts/MainLayout";
 import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
